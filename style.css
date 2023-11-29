@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 16px 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 12px;
+}
+
+a:link {
+    cursor: pointer;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 32px 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.hero-left {
+    width: 400px;
+}
+
+button {
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.information {
+    padding: 64px 300px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.testimonies {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.testimony {
+    text-align: center;
+    width: 150px;
+}
+
+.testimony img {
+    border: 2px #3882F6 solid;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 8px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 450px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: bolder;
+}
+.call-to-action-section {
+    padding: 64px 300px;
+}
+
+.call-to-action {
+    padding: 30px 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action p,
+.footer p {
+    color: #F9FAF8;
+}
+
+.call-to-action p:first-child {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.call-to-action button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 16px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
