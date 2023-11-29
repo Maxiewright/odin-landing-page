@@ -11,6 +11,12 @@
     justify-content: space-between;
 }
 
+.sticky {
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+}
+
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -32,6 +38,11 @@ a:hover {
     font-weight: bold;
 }
 
+a:visited {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -45,6 +56,12 @@ a:hover {
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 16px;
+}
+
+.hero img {
+    border-radius: 8px;
+    height: 300px;
+    width: 500px;
 }
 
 .hero p {
